@@ -1,0 +1,8 @@
+SELECT `idStavke`, `idPorudzbine`, `kolicina`, `status`, artikal.idArtikla FROM `stavke` LEFT JOIN artikal ON artikal.idArtikla=stavke.idArtikla where idPorudzbine=1
+
+
+//sql za naziv i kolicinu porucenih artikala za idusera
+SELECT `kolicina`, artikal.naziv FROM `stavke` LEFT JOIN artikal on artikal.idArtikla=stavke.idArtikla RIGHT JOIN porudzbina on porudzbina.idPorudzbine=stavke.idPorudzbine where porudzbina.idUser=2
+
+//sql za naziv i kolicinu porucenih artikala za idusera i idporudzbine
+SELECT `kolicina`, artikal.naziv FROM `stavke` LEFT JOIN artikal on artikal.idArtikla=stavke.idArtikla RIGHT JOIN porudzbina on porudzbina.idPorudzbine=stavke.idPorudzbine where porudzbina.idUser=2 and porudzbina.idPorudzbine=2
