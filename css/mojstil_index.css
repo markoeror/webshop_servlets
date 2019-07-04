@@ -1,0 +1,27 @@
+
+#GlTxt {
+ 
+  margin: 40px 0 10px;
+  
+}
+.carousel-indicators .active {
+  background-color: rgb(150, 150, 150);
+}
+
+.carousel-indicators {
+  z-index: 1;
+}
+
+.carousel-indicators li{
+  border: 15px solid rgb(150, 150, 150);
+}
+
+.carousel-control .glyphicon-chevron-left, .carousel-control .icon-next {
+  left: 20%;
+  margin-left: -10px;
+}
+
+.carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {
+  right: 20%;
+  margin-right: -10px;
+}

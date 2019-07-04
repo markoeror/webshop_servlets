@@ -1,0 +1,17 @@
+@charset "ISO-8859-1";
+
+#login {
+  background-color: #f2f2f2;
+  width: 500px;
+  border: 15px solid #99ccff;
+  padding: 70px;
+  margin: 20px 0px 5px 0px;
+}
+
+#registracija { 
+  background-color: #f2f2f2;
+  width: 500px;
+  border: 15px solid #99ccff;
+  padding: 70px;
+  margin: 5px 0px 5px 0px;
+

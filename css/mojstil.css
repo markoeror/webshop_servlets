@@ -1,0 +1,210 @@
+body {
+        /* background: url("../images/primetime/main-bg.jpg") no-repeat center top; */
+        background-image: url("../images/primetime/main-bg.jpg");
+        background-position: top;
+        background-size: cover;
+        color: rgb(150, 150, 150);
+        /* MENJA BOJU SLOVA U CELOM TELU*/
+}
+
+.page-header {
+        padding-bottom: 10px;
+        margin: 40px 0 1px;
+        border-bottom: 2px solid rgb(80, 80, 80);
+}
+
+nav {
+        background: rgb(60, 60, 60);
+        /* MENJA BOJU POZADINE*/
+}
+
+nav h2 {
+        display: none;
+}
+
+.navbar-default {
+        /* background: url(../images/primetime/menu-hint.png) bottom repeat-x; */
+        background-color: rgb(60, 60, 60);
+        border-color: transparent;
+}
+
+.navbar-default .navbar-toggle {
+        border-color: rgb(150, 150, 150);
+        /* MENJA BOJU OKVIRA BURGERA*/
+}
+
+.navbar-default .navbar-toggle:hover {
+        background-color: rgb(80, 80, 80);
+        /* MENJA BOJU BURGERA PRILIKOM LEBDENJA*/
+}
+
+.navbar-default .navbar-toggle:focus {
+        background-color: rgb(60, 60, 60);
+        /* MENJA BOJU BURGERA KAD SE KURSOR SKLONI NAKON AKTIVACIJE*/
+}
+
+.navbar-default .navbar-collapse {
+        border-color: rgb(80, 80, 80);
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+        background-color: rgb(150, 150, 150);
+        /* MENJA BOJU LINIJA BURGERA*/
+}
+
+.navbar-default .navbar-brand {
+        color: rgb(150, 150, 150);
+        /*color: rgb(188, 188, 188)*/
+        /* MENJA BOJU SLOVA U LEVOM DELU NAVIGACIJE*/
+        font-size: 16px;
+}
+
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+        color: rgb(180, 180, 180);
+        text-shadow: 0.5px 0.5px rgb(210, 210, 210);
+        background-color: rgb(60, 60, 60);
+        /* MENJA BOJU POZADINE*/
+}
+
+.navbar-default .navbar-nav>li>a {
+        color: rgb(150, 150, 150);
+        /* MENJA BOJU SLOVA U DESNOM DELU NAVIGACIJE*/
+        font-size: 16px;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+        color: rgb(180, 180, 180);
+        /* MENJA BOJU SLOVA NAVIGACIJE NA LEBDENJU KURSORA*/
+        text-shadow: 0.5px 0.5px rgb(210, 210, 210);
+        background-color: rgb(60, 60, 60);
+        /* MENJA BOJU POZADINE*/
+}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus {
+        color: rgb(150, 150, 150);
+        /* MENJA BOJU SLOVA NAVIGACIJE NA PRITISAK MIŠEM*/
+        background-color: rgb(60, 60, 60);
+        /* MENJA BOJU POZADINE*/
+}
+
+.navbar-default .navbar-nav>.open>a:hover {
+        color: rgb(180, 180, 180);
+        /* MENJA BOJU SLOVA NAVIGACIJE NA PRITISAK MIŠEM*/
+        background-color: rgb(60, 60, 60);
+        /* MENJA BOJU POZADINE*/
+}
+
+.dropdown-menu>li>a {
+        color: rgb(150, 150, 150);
+        /* MENJA BOJU SLOVA PADAJUĆEG MENIJA*/
+}
+
+@media (max-width: 767px) {
+        .navbar-default .navbar-nav .open .dropdown-menu>li>a {
+                color: rgb(150, 150, 150);
+        }
+}
+
+@media (max-width: 767px) {
+        .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover {
+                color: rgb(180, 180, 180);
+                background-color: rgb(60, 60, 60);
+                /* MENJA BOJU POZADINE PRILIKOM LEBDENJA NA MANJE OD 767px*/
+        }
+}
+
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
+        color: rgb(180, 180, 180);
+        /* MENJA BOJU PADAJUĆEG MENIJA*/
+        text-shadow: 0.5px 0.5px rgb(210, 210, 210);
+        text-decoration: none;
+        background-color: rgb(60, 60, 60);
+        /* MENJA BOJU POZADINE*/
+}
+
+.dropdown-menu {
+        min-width: fit-content;
+        background-color: rgb(60, 60, 60);
+        /* border: 1px solid red; */
+        /* border-radius: 4px; */
+        box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+}
+
+.affix {
+        position: sticky;
+        top: 0;
+        width: 100%;
+        z-index: 2;
+}
+
+#author {
+        color: rgb(150, 150, 150);
+        /* MENJA BOJU SLOVA IMENA AUTORA CITATA*/
+}
+blockquote {
+        
+        border-left: 5px solid rgb(80, 80, 80);
+}
+blockquote small {
+        color: rgb(150, 150, 150);
+        /* MENJA BOJU CRTICA KOD IMENA AUTORA CITATA*/
+}
+
+blockquote small:after {
+        content: '\2014 \00A0';
+}
+
+.jumbotron {
+        /*  height: 320px;  */
+        font-size: 14px;
+        background-color: inherit;
+}
+
+.jumbotron h1 {
+        font-size: 2em;
+}
+
+#SoNet {
+        padding-top: 10px;
+}
+
+.panel-footer {
+        padding: 10px 15px;
+        background-color: inherit;
+        border-top: 2px solid rgb(80, 80, 80);
+}
+
+#HaGe {
+        padding-top: 5px;
+        padding-bottom: 5%;
+}
+
+.btn-primary {
+        color: rgb(180, 180, 180);
+        background-color: rgb(100, 100, 100);
+        border-color: transparent;
+}
+
+.btn-primary:hover {
+        color: #fff;
+        background-color: rgb(180, 180, 180);
+        border-color: transparent;
+}
+
+.grupaizracunavanje>#rezultati {
+        font-size: 16px;
+}
+
+.grupaizracunavanje>#rezultati1 {
+        font-size: 20px;
+}
+
+.mapa {
+        width: 100%;
+        padding: 2%;
+}
+
+iframe {
+        width: 100%;
+        height: 400px;
+}
